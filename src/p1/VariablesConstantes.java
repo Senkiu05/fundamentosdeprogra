@@ -14,7 +14,7 @@ public class VariablesConstantes {
         double pp = 230.0;
         final double iva = 0.16;
         double subt = cp*pp;
-
+        System.out.println("hola buenas tardes");
 
 
     }
