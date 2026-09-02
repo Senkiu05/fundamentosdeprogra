@@ -8,7 +8,7 @@ public class ifSencillo {
         Scanner teclado= new Scanner(System.in);
         System.out.println("\n cuantos corazones tienes: ");
         int corazones= teclado.nextInt();
-        if(corazones == 13){
+        if(corazones == 1){
             System.out.println("\n completo");
         }else{
             System.out.println("\n ella no te ama");
