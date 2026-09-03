@@ -6,13 +6,15 @@ public class ifanidado {
     public static void main(String[] args) {
         Scanner leer= new Scanner(System.in);
 
+        System.out.println("cuanto ganas: ");
         String tipo = "Asalariado";
-        int ganas = 400000;
-        int cantidadDeTrabajos = 2;
+        int ganas = leer.nextInt();
+        System.out.println("cuantos trabajos tienes: ");
+        int cantidadDeTrabajos = leer.nextInt();
         if(tipo.equals("Asalariado")){
             System.out.println("patron");
 
-            if(ganas>= 400000 ||cantidadDeTrabajos>= 2  ){
+            if(ganas>= 400000 || cantidadDeTrabajos>= 2  ){
 
             }
         }else{
