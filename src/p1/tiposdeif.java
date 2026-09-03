@@ -26,6 +26,7 @@ public class tiposdeif {
             
         } else if (opcion > 3) {
             System.out.println("invalido");
+
             
         }
     }
