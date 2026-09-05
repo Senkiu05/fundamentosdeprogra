@@ -8,11 +8,9 @@ public class ifTernario {
         System.out.println("Dame tu password");
         Scanner leer1= new Scanner(System.in);
         String password = leer1.nextLine();
-        String buena_contraseña = password.length() >= 8 ? "Buena contraseña": "mala contraseña";
+        String buena_contrasena = password.length() >= 8 ? "Buena contraseña": "mala contraseña";
 
-        System.out.println(buena_contraseña);
-
-
+        System.out.println(buena_contrasena);
 
 
 
